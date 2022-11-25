@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Garage Pack/Garage_D_SI/Garage_D_SI.unity
     guid: 9f4aad6b2194f6b40abffdfcae772b6b
+  - enabled: 1
+    path: Assets/Garage Pack/Garage_G/Garage_G.unity
+    guid: 9cc2d31dd7857d940a75a2986a289e63
+  - enabled: 1
+    path: Assets/Garage Pack/Garage_A_SI/Garage_A_SI.unity
+    guid: 551ac44804041e64ea68546cdfdd17b5
+  - enabled: 1
+    path: Assets/Garage Pack/Garage_C_SI/Garage_C_SI.unity
+    guid: cdb27c5696e3ebc42b846af4bbcbef30
+  - enabled: 1
+    path: Assets/Garage Pack/Garage_B_SI/Garage_B_SI.unity
+    guid: 396f6005c13d4f745b52a58a26bc914a
+  - enabled: 1
+    path: Assets/Garage Pack/Garage_E/Garage_E.unity
+    guid: fa79e3c44dc369d478e01698a4f1d0d5
+  - enabled: 1
+    path: Assets/Garage Pack/Garage_F/Garage_F.unity
+    guid: 0f0ae6e4b653c4f4086133680bc089c5
   m_configObjects: {}
