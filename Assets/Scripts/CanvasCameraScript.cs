@@ -6,13 +6,18 @@ public class CanvasCameraScript : MonoBehaviour
 {
     public Camera static_camera;
     public Camera walk_camera;
-
+    GameObject canvas;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        canvas = GameObject.Find("Canvas") as GameObject;
+    }
     void Start()
     {
         static_camera.gameObject.SetActive(true);
         walk_camera.gameObject.SetActive(false);
-
+        canvas.SetActive(false);
     }
 
     // Update is called once per frame
