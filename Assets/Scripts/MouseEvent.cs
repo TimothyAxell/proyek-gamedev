@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class MouseEvent : MonoBehaviour
 {
+    public int id;
     GameObject canvas;
-
+    //public AudioSource sfx;
 
     private void Awake()
     {
@@ -23,6 +24,7 @@ public class MouseEvent : MonoBehaviour
         if (canvas.GetComponent<CanvasUI>().getTarget() == gameObject)
         {
             //munculkan canvas 
+            //PlaySound();
             canvas.SetActive(true);
         }
     }
@@ -32,7 +34,19 @@ public class MouseEvent : MonoBehaviour
         if (canvas.gameObject.activeSelf == false)
         {
             //ubah datanya dan isi nama target yang dituju adalah game object ini 
-            canvas.GetComponent<CanvasUI>().setDataText(gameObject);
+            //Debug.Log(id);
+            canvas.GetComponent<CanvasUI>().setDataText(id,gameObject);
         }
     }
+
+    public void doCloseAnim()
+    {
+        canvas.SetActive(false);
+        //an.SetInteger("animasi", 0);
+    }
+
+    //public void PlaySound()
+    //{
+    //    sfx.Play();
+    //}
 }
