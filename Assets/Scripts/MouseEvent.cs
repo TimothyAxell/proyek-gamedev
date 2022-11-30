@@ -7,9 +7,11 @@ public class MouseEvent : MonoBehaviour
     public int id;
     GameObject canvas;
     //public AudioSource sfx;
-
+    Animator an;
     private void Awake()
     {
+        an = GetComponent<Animator>();
+        
         canvas = GameObject.Find("Canvas") as GameObject;
     }
     // Start is called before the first frame update
@@ -36,13 +38,16 @@ public class MouseEvent : MonoBehaviour
             //ubah datanya dan isi nama target yang dituju adalah game object ini 
             //Debug.Log(id);
             canvas.GetComponent<CanvasUI>().setDataText(id,gameObject);
+            an.SetInteger("animasi", 1);
         }
     }
 
     public void doCloseAnim()
     {
         canvas.SetActive(false);
-        //an.SetInteger("animasi", 0);
+        
+        an.SetInteger("animasi", 0);
+        
     }
 
     //public void PlaySound()
