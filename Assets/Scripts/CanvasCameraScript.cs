@@ -7,6 +7,7 @@ public class CanvasCameraScript : MonoBehaviour
     public Camera static_camera;
     public Camera walk_camera;
     GameObject canvas;
+    public GameObject car;
     // Start is called before the first frame update
 
     public void Awake()
@@ -28,12 +29,15 @@ public class CanvasCameraScript : MonoBehaviour
 
     public void walkCamera()
     {
+        car.GetComponent<BoxCollider>().enabled = false;
         static_camera.gameObject.SetActive(false);
         walk_camera.gameObject.SetActive(true);
     }
 
     public void staticCamera()
     {
+        car.GetComponent<BoxCollider>().enabled = true;
+        car.SetActive(true);
         static_camera.gameObject.SetActive(true);
         walk_camera.gameObject.SetActive(false);
     }

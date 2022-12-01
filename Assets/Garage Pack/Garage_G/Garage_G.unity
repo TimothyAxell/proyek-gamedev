@@ -307,6 +307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   static_camera: {fileID: 1001879641}
   walk_camera: {fileID: 1178960500}
+  car: {fileID: 919132149324027640}
 --- !u!1 &315441336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,7 +1668,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260.7587, y: -141}
+  m_AnchoredPosition: {x: -317.7587, y: -141}
   m_SizeDelta: {x: 386.0355, y: 658.3662}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272995415
@@ -3331,7 +3332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -271, y: 242}
+  m_AnchoredPosition: {x: -328, y: 242}
   m_SizeDelta: {x: 369.5528, y: 57.124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116122110

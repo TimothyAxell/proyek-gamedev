@@ -23,7 +23,7 @@ public class MouseEvent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (canvas.GetComponent<CanvasUI>().getTarget() == gameObject)
+        if (canvas.GetComponent<CanvasUI>().getTarget() == gameObject && an.GetCurrentAnimatorStateInfo(0).IsName("rotate"))
         {
             //munculkan canvas 
             //PlaySound();
