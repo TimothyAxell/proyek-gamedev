@@ -6,6 +6,8 @@ public class MouseEvent : MonoBehaviour
 {
     public int id;
     GameObject canvas;
+    public Camera static_camera;
+    public Camera walk_camera;
     //public AudioSource sfx;
     Animator an;
     private void Awake()
@@ -28,6 +30,8 @@ public class MouseEvent : MonoBehaviour
             //munculkan canvas 
             //PlaySound();
             canvas.SetActive(true);
+            static_camera.gameObject.SetActive(true);
+            walk_camera.gameObject.SetActive(false);
         }
     }
 

@@ -634,7 +634,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   static_camera: {fileID: 1280255464}
   walk_camera: {fileID: 1178960500}
-  car: {fileID: 848639121}
 --- !u!114 &223826907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,6 +1533,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1
+  static_camera: {fileID: 1280255464}
+  walk_camera: {fileID: 1178960500}
 --- !u!95 &848639126
 Animator:
   serializedVersion: 4
@@ -3394,8 +3395,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3877,7 +3878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -313, y: 242}
+  m_AnchoredPosition: {x: -313, y: 265}
   m_SizeDelta: {x: 369.5528, y: 57.124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1959415580
