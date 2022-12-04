@@ -10,7 +10,7 @@ public class CanvasUI : MonoBehaviour
     public TextMeshProUGUI deskripsi_txt;
 
     public GameObject target = null;
-    List<global> arr = new List<global>();
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -35,18 +35,40 @@ public class CanvasUI : MonoBehaviour
 
     public void setDataText(int paramID, GameObject obj)
     {
+        List<global> arr = new List<global>();
+        //0
         global obj_;
-        obj_ = new global("muscle cougar xr 1969", "Mobil ini merupakan mobil coupe yang merupakan mobil convertible pertama pada waktunya. Mucle Cougar memili kapasitas mesin bervariasi mulai dari 5752 cc hingga 6887 cc dan memiliki 335 horsepower.");
+        obj_ = new global("muscle cougar xr 1979", "cari info lagi");
         arr.Add(obj_);
+        //1
         obj_ = new global("1969 Chevrolet Camaro", "Generasi pertama Chevrolet Camaro adalah mobil muscle Amerika yang diperkenalkan oleh Chevrolet pada musim gugur 1966 untuk model tahun 1967. Ini mengendarai platform GM F-body penggerak roda belakang baru dan tersedia sebagai kursi 2 pintu, 2+2, hardtop, dan konvertibel. F-body dibagikan dengan Pontiac Firebird untuk semua generasi. Sebuah 230 cu di mesin Chevrolet 6 silinder segaris adalah standar, dengan beberapa Chevy V8 tersedia sebagai pilihan. Camaro generasi pertama dibangun melalui model tahun 1969.");
         arr.Add(obj_);
+        //2
         obj_ = new global("Aston Martin V12 Vantage S 6.0 V12", "Mobil Aston Martin ini merupakan mobil two seater yang memiliki kekuatan mesin sebesar 572 horse power dengan transmisi 7-kecepatan Sportshift III Automated Manual yang dapat berpindah secara agresif. Kendaraan ini juga memiliki beberapa fitur menarik seperti cruise control, adjustment suspension, dan masih banyak lagi.");
         arr.Add(obj_);
+        //3
         obj_ = new global("Beetle", "Mobil Aston Martin ini merupakan mobil two seater yang memiliki kekuatan mesin sebesar 572 horse power dengan transmisi 7-kecepatan Sportshift III Automated Manual yang dapat berpindah secara agresif. Kendaraan ini juga memiliki beberapa fitur menarik seperti cruise control, adjustment suspension, dan masih banyak lagi.");
         arr.Add(obj_);
-        obj_ = new global("Aston Martin V12 Vantage S 6.0 V12", "Mobil Aston Martin ini merupakan mobil two seater yang memiliki kekuatan mesin sebesar 572 horse power dengan transmisi 7-kecepatan Sportshift III Automated Manual yang dapat berpindah secara agresif. Kendaraan ini juga memiliki beberapa fitur menarik seperti cruise control, adjustment suspension, dan masih banyak lagi.");
+        //4
+        obj_ = new global("muscle cougar xr 1969", "Mobil ini merupakan mobil coupe yang merupakan mobil convertible pertama pada waktunya. Mucle Cougar memili kapasitas mesin bervariasi mulai dari 5752 cc hingga 6887 cc dan memiliki 335 horsepower.");
         arr.Add(obj_);
-        obj_ = new global("Aston Martin V12 Vantage S 6.0 V12", "Mobil Aston Martin ini merupakan mobil two seater yang memiliki kekuatan mesin sebesar 572 horse power dengan transmisi 7-kecepatan Sportshift III Automated Manual yang dapat berpindah secara agresif. Kendaraan ini juga memiliki beberapa fitur menarik seperti cruise control, adjustment suspension, dan masih banyak lagi.");
+        //5
+        obj_ = new global("Buggati Type 35", "Bugatti Type 35 adalah model balap Bugatti yang paling sukses. Versi radiator berbentuk lengkungan Bugatti yang telah berevolusi dari yang lebih arsitektural dari Bugatti Type 13 Brescia, menjadi salah satu signature yang paling dikenal.");
+        arr.Add(obj_);
+        //6
+        obj_ = new global("Mercedes Amt GT", "cari info");
+        arr.Add(obj_);
+        //7
+        obj_ = new global("Lotus", "cari info");
+        arr.Add(obj_);
+        //8
+        obj_ = new global("Audi R8", "cari info");
+        arr.Add(obj_);
+        //9
+        obj_ = new global("Dodge Challenger SRT10", "cari info");
+        arr.Add(obj_);
+        //10
+        obj_ = new global("TESLA??", "cari info");
         arr.Add(obj_);
 
         Debug.Log(arr.Count + " jumlah arr");
